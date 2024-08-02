@@ -7,8 +7,8 @@ class MyWindow : public Gtk::Window
 
 MyWindow::MyWindow()
 {
-	set_title("Basic application");
-	set_default_size(200, 200);
+	set_title("Empty");
+	set_default_size(1920, 1080);
 }
 
 int main(int argc, char *argv[])
