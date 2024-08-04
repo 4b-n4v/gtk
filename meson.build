@@ -1,3 +1,3 @@
-project('buttons', 'cpp')
+project('examplewindow', 'cpp')
 gtkdep = dependency('gtkmm-4.0')
-executable('buttons','main.cc', 'buttons.cc', dependencies : gtkdep)
+executable('examplewindow','main.cc', 'examplewindow.cc', dependencies : gtkdep)
