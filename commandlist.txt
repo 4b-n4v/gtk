@@ -1,5 +1,0 @@
--- List sinks in columns with Name and Node Name
-LC_ALL=C pactl list sinks | grep -E 'Description:|node.name' | awk 'BEGIN {print "Device Name\tNode Name"} /Description:/ {desc = substr($0, index($0, $2))} /node.name/ {print desc "\t" substr($0, index($0, $3))}' | column -t -s $'\t'\
-
--- Create the actual sink
-pactl load-module module-combine-sink sink_name=combined-airpods sink_properties=slaves=bluez_output.98_A5_F9_53_AC_4F.1,bluez_output.E4_90_FD_00_88_A4.1

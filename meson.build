@@ -1,3 +1,3 @@
-project('examplewindow', 'cpp')
+project('radiobuttons', 'cpp')
 gtkdep = dependency('gtkmm-4.0')
-executable('examplewindow','main.cc', 'examplewindow.cc', dependencies : gtkdep)
+executable('radiobuttons','main.cc', 'radiobuttons.cc', dependencies : gtkdep)
