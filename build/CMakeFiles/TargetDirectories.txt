@@ -1,0 +1,3 @@
+/home/n4v/Projects/gtk/build/CMakeFiles/gtk.dir
+/home/n4v/Projects/gtk/build/CMakeFiles/edit_cache.dir
+/home/n4v/Projects/gtk/build/CMakeFiles/rebuild_cache.dir
